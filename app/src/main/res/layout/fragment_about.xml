@@ -19,29 +19,29 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/white"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/dataset"
-                android:textSize="18sp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                style="@style/TextAppearance.AppCompat.Body1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="TextView" />
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/github"
-                android:textSize="18sp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                style="@style/TextAppearance.AppCompat.Body1"
+                style="@style/Widget.AppCompat.TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="TextView" />
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textSize="18sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

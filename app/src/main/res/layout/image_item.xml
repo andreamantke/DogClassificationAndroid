@@ -31,24 +31,25 @@
 
     <LinearLayout
         android:id="@+id/nameHolder"
-        android:transitionName="tNameHolder"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_gravity="bottom"
+        android:background="@color/colorAccent"
         android:orientation="horizontal"
-        android:background="@android:color/black">
+        android:transitionName="tNameHolder">
 
         <TextView
             android:id="@+id/sampleName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
             android:gravity="center"
-            android:textStyle="normal"
             android:paddingLeft="10dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@android:color/white"
-            />
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="normal" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
